@@ -1,0 +1,52 @@
+body{
+
+  background-color: aqua;
+}
+
+
+p:hover{
+  background-color: red;
+  color: white;
+}
+
+
+p.sOne{
+
+  color: white;
+  background-color: blue;
+
+}
+
+p.heading{
+
+  background-color: black;
+  color: black;
+  font-family: arial
+  font-size: 24pt;
+
+}
+
+p.subHeading{
+
+  background-color: black;
+  color: white;
+  font-family: times serif;
+  font-size: 10pt;
+
+}
+
+p.links{
+background-color: white;
+color: black;
+font-family: cursive;
+font size=10pt;
+
+}
+
+iframe:focus{
+  outline:none;
+
+}
+iframe[seamless]{
+  display:block;
+}
