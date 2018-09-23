@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script type="text/javascript" src="exercise1JS.js">
-  </script>
-<title> "This Is My title" </title>
+
+
+
+<title> Password Verifier </title>
+<script type="text/javascript" src="exercise1JS.js">
+</script>
 </head>
 <body>
-<h1> This is a heading </h1>
+<h1> Password Checker (must be at least 8 characters) </h1>
 
 <p>
+
+  Password: <input type="password" name="firstField" id="firstField" oninvalid="alert('Must contain at least 8 characters');" pattern=".{8,}"/><br>
+  Verify Password: <input type="password"  id="secondField" name="secondField" />
+  <br>
+  <button name="Validate" value="Validate" onclick="check()"> Validate   </button>
+<br>
+
+
+
 
 </p>
 
